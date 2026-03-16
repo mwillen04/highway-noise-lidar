@@ -1,0 +1,9 @@
+osmnx
+matplotlib
+pandas
+numpy
+geopandas
+seaborn
+pdal
+shapely
+dotenv

@@ -1,0 +1,5666 @@
+[
+    {
+        "id": "0",
+        "lat": 41.30615,
+        "lng": -72.89486,
+        "result": {
+            "request": {
+                "lat": "41.30615",
+                "lng": "-72.89486"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "1",
+        "lat": 41.30142,
+        "lng": -72.9234,
+        "result": {
+            "request": {
+                "lat": "41.30142",
+                "lng": "-72.9234"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 59,
+                    "scoretext": "Busy",
+                    "traffic": 53,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "2",
+        "lat": 41.30487,
+        "lng": -72.91281,
+        "result": {
+            "request": {
+                "lat": "41.30487",
+                "lng": "-72.91281"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 63,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "3",
+        "lat": 41.28796,
+        "lng": -72.88687,
+        "result": {
+            "request": {
+                "lat": "41.28796",
+                "lng": "-72.88687"
+            },
+            "result": [
+                {
+                    "airports": 4,
+                    "airportstext": "Busy",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 58,
+                    "scoretext": "Busy",
+                    "traffic": 49,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "4",
+        "lat": 41.29135,
+        "lng": -72.90154,
+        "result": {
+            "request": {
+                "lat": "41.29135",
+                "lng": "-72.90154"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "5",
+        "lat": 41.28793,
+        "lng": -72.88418,
+        "result": {
+            "request": {
+                "lat": "41.28793",
+                "lng": "-72.88418"
+            },
+            "result": [
+                {
+                    "airports": 3,
+                    "airportstext": "Busy",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 59,
+                    "scoretext": "Busy",
+                    "traffic": 54,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "6",
+        "lat": 41.28364,
+        "lng": -72.95036,
+        "result": {
+            "request": {
+                "lat": "41.28364",
+                "lng": "-72.95036"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 58,
+                    "scoretext": "Busy",
+                    "traffic": 54,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "7",
+        "lat": 41.31988,
+        "lng": -72.90619,
+        "result": {
+            "request": {
+                "lat": "41.31988",
+                "lng": "-72.90619"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "8",
+        "lat": 41.30462,
+        "lng": -72.90238,
+        "result": {
+            "request": {
+                "lat": "41.30462",
+                "lng": "-72.90238"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "9",
+        "lat": 41.32378,
+        "lng": -72.88547,
+        "result": {
+            "request": {
+                "lat": "41.32378",
+                "lng": "-72.88547"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "10",
+        "lat": 41.30372,
+        "lng": -72.93454,
+        "result": {
+            "request": {
+                "lat": "41.30372",
+                "lng": "-72.93454"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "11",
+        "lat": 41.30255,
+        "lng": -72.93725,
+        "result": {
+            "request": {
+                "lat": "41.30255",
+                "lng": "-72.93725"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "12",
+        "lat": 41.30094,
+        "lng": -72.93954,
+        "result": {
+            "request": {
+                "lat": "41.30094",
+                "lng": "-72.93954"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 37,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "13",
+        "lat": 41.31793,
+        "lng": -72.89332,
+        "result": {
+            "request": {
+                "lat": "41.31793",
+                "lng": "-72.89332"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 36,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "14",
+        "lat": 41.29463,
+        "lng": -72.93039,
+        "result": {
+            "request": {
+                "lat": "41.29463",
+                "lng": "-72.93039"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "15",
+        "lat": 41.29738,
+        "lng": -72.93124,
+        "result": {
+            "request": {
+                "lat": "41.29738",
+                "lng": "-72.93124"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "16",
+        "lat": 41.31993,
+        "lng": -72.91125,
+        "result": {
+            "request": {
+                "lat": "41.31993",
+                "lng": "-72.91125"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "17",
+        "lat": 41.27927,
+        "lng": -72.89384,
+        "result": {
+            "request": {
+                "lat": "41.27927",
+                "lng": "-72.89384"
+            },
+            "result": [
+                {
+                    "airports": 3,
+                    "airportstext": "Busy",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "18",
+        "lat": 41.31336,
+        "lng": -72.90784,
+        "result": {
+            "request": {
+                "lat": "41.31336",
+                "lng": "-72.90784"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "19",
+        "lat": 41.2871,
+        "lng": -72.93266,
+        "result": {
+            "request": {
+                "lat": "41.2871",
+                "lng": "-72.93266"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 37,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "20",
+        "lat": 41.29116,
+        "lng": -72.93367,
+        "result": {
+            "request": {
+                "lat": "41.29116",
+                "lng": "-72.93367"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "21",
+        "lat": 41.29374,
+        "lng": -72.93088,
+        "result": {
+            "request": {
+                "lat": "41.29374",
+                "lng": "-72.93088"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "22",
+        "lat": 41.29361,
+        "lng": -72.93791,
+        "result": {
+            "request": {
+                "lat": "41.29361",
+                "lng": "-72.93791"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "23",
+        "lat": 41.29868,
+        "lng": -72.90576,
+        "result": {
+            "request": {
+                "lat": "41.29868",
+                "lng": "-72.90576"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "24",
+        "lat": 41.29812,
+        "lng": -72.91297,
+        "result": {
+            "request": {
+                "lat": "41.29812",
+                "lng": "-72.91297"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "25",
+        "lat": 41.30085,
+        "lng": -72.91483,
+        "result": {
+            "request": {
+                "lat": "41.30085",
+                "lng": "-72.91483"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 56,
+                    "scoretext": "Busy",
+                    "traffic": 57,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "26",
+        "lat": 41.30219,
+        "lng": -72.9206,
+        "result": {
+            "request": {
+                "lat": "41.30219",
+                "lng": "-72.9206"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "27",
+        "lat": 41.33108,
+        "lng": -72.87444,
+        "result": {
+            "request": {
+                "lat": "41.33108",
+                "lng": "-72.87444"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "28",
+        "lat": 41.33109,
+        "lng": -72.87055,
+        "result": {
+            "request": {
+                "lat": "41.33109",
+                "lng": "-72.87055"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 28,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "29",
+        "lat": 41.30346,
+        "lng": -72.89389,
+        "result": {
+            "request": {
+                "lat": "41.30346",
+                "lng": "-72.89389"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "30",
+        "lat": 41.30255,
+        "lng": -72.89614,
+        "result": {
+            "request": {
+                "lat": "41.30255",
+                "lng": "-72.89614"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "31",
+        "lat": 41.30294,
+        "lng": -72.90079,
+        "result": {
+            "request": {
+                "lat": "41.30294",
+                "lng": "-72.90079"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "32",
+        "lat": 41.30508,
+        "lng": -72.89679,
+        "result": {
+            "request": {
+                "lat": "41.30508",
+                "lng": "-72.89679"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "33",
+        "lat": 41.30038,
+        "lng": -72.92455,
+        "result": {
+            "request": {
+                "lat": "41.30038",
+                "lng": "-72.92455"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "34",
+        "lat": 41.32131,
+        "lng": -72.91991,
+        "result": {
+            "request": {
+                "lat": "41.32131",
+                "lng": "-72.91991"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "35",
+        "lat": 41.2928,
+        "lng": -72.89921,
+        "result": {
+            "request": {
+                "lat": "41.2928",
+                "lng": "-72.89921"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 48,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "36",
+        "lat": 41.31654,
+        "lng": -72.87266,
+        "result": {
+            "request": {
+                "lat": "41.31654",
+                "lng": "-72.87266"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "37",
+        "lat": 41.31045,
+        "lng": -72.90442,
+        "result": {
+            "request": {
+                "lat": "41.31045",
+                "lng": "-72.90442"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "38",
+        "lat": 41.30724,
+        "lng": -72.89802,
+        "result": {
+            "request": {
+                "lat": "41.30724",
+                "lng": "-72.89802"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "39",
+        "lat": 41.30685,
+        "lng": -72.90286,
+        "result": {
+            "request": {
+                "lat": "41.30685",
+                "lng": "-72.90286"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "40",
+        "lat": 41.31571,
+        "lng": -72.88918,
+        "result": {
+            "request": {
+                "lat": "41.31571",
+                "lng": "-72.88918"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "41",
+        "lat": 41.31723,
+        "lng": -72.8894,
+        "result": {
+            "request": {
+                "lat": "41.31723",
+                "lng": "-72.8894"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "42",
+        "lat": 41.31451,
+        "lng": -72.93108,
+        "result": {
+            "request": {
+                "lat": "41.31451",
+                "lng": "-72.93108"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "43",
+        "lat": 41.30742,
+        "lng": -72.9192,
+        "result": {
+            "request": {
+                "lat": "41.30742",
+                "lng": "-72.9192"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "44",
+        "lat": 41.32395,
+        "lng": -72.88128,
+        "result": {
+            "request": {
+                "lat": "41.32395",
+                "lng": "-72.88128"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 61,
+                    "scoretext": "Busy",
+                    "traffic": 50,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "45",
+        "lat": 41.32239,
+        "lng": -72.878,
+        "result": {
+            "request": {
+                "lat": "41.32239",
+                "lng": "-72.878"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "46",
+        "lat": 41.32018,
+        "lng": -72.86909,
+        "result": {
+            "request": {
+                "lat": "41.32018",
+                "lng": "-72.86909"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "47",
+        "lat": 41.30504,
+        "lng": -72.89647,
+        "result": {
+            "request": {
+                "lat": "41.30504",
+                "lng": "-72.89647"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 36,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "48",
+        "lat": 41.30369,
+        "lng": -72.90255,
+        "result": {
+            "request": {
+                "lat": "41.30369",
+                "lng": "-72.90255"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "49",
+        "lat": 41.3035,
+        "lng": -72.90972,
+        "result": {
+            "request": {
+                "lat": "41.3035",
+                "lng": "-72.90972"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "50",
+        "lat": 41.30367,
+        "lng": -72.91394,
+        "result": {
+            "request": {
+                "lat": "41.30367",
+                "lng": "-72.91394"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 56,
+                    "scoretext": "Busy",
+                    "traffic": 56,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "51",
+        "lat": 41.30392,
+        "lng": -72.92007,
+        "result": {
+            "request": {
+                "lat": "41.30392",
+                "lng": "-72.92007"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "52",
+        "lat": 41.3049,
+        "lng": -72.92299,
+        "result": {
+            "request": {
+                "lat": "41.3049",
+                "lng": "-72.92299"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "53",
+        "lat": 41.30807,
+        "lng": -72.92429,
+        "result": {
+            "request": {
+                "lat": "41.30807",
+                "lng": "-72.92429"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "54",
+        "lat": 41.30769,
+        "lng": -72.92966,
+        "result": {
+            "request": {
+                "lat": "41.30769",
+                "lng": "-72.92966"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "55",
+        "lat": 41.30876,
+        "lng": -72.93297,
+        "result": {
+            "request": {
+                "lat": "41.30876",
+                "lng": "-72.93297"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "56",
+        "lat": 41.31526,
+        "lng": -72.9165,
+        "result": {
+            "request": {
+                "lat": "41.31526",
+                "lng": "-72.9165"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 36,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "57",
+        "lat": 41.29441,
+        "lng": -72.89938,
+        "result": {
+            "request": {
+                "lat": "41.29441",
+                "lng": "-72.89938"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "58",
+        "lat": 41.2947,
+        "lng": -72.89637,
+        "result": {
+            "request": {
+                "lat": "41.2947",
+                "lng": "-72.89637"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "59",
+        "lat": 41.291,
+        "lng": -72.89577,
+        "result": {
+            "request": {
+                "lat": "41.291",
+                "lng": "-72.89577"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 50,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "60",
+        "lat": 41.28909,
+        "lng": -72.89456,
+        "result": {
+            "request": {
+                "lat": "41.28909",
+                "lng": "-72.89456"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 59,
+                    "scoretext": "Busy",
+                    "traffic": 48,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "61",
+        "lat": 41.30556,
+        "lng": -72.8989,
+        "result": {
+            "request": {
+                "lat": "41.30556",
+                "lng": "-72.8989"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "62",
+        "lat": 41.30582,
+        "lng": -72.90347,
+        "result": {
+            "request": {
+                "lat": "41.30582",
+                "lng": "-72.90347"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "63",
+        "lat": 41.31696,
+        "lng": -72.88726,
+        "result": {
+            "request": {
+                "lat": "41.31696",
+                "lng": "-72.88726"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "64",
+        "lat": 41.3156,
+        "lng": -72.89374,
+        "result": {
+            "request": {
+                "lat": "41.3156",
+                "lng": "-72.89374"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "65",
+        "lat": 41.31573,
+        "lng": -72.90009,
+        "result": {
+            "request": {
+                "lat": "41.31573",
+                "lng": "-72.90009"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "66",
+        "lat": 41.28159,
+        "lng": -72.94703,
+        "result": {
+            "request": {
+                "lat": "41.28159",
+                "lng": "-72.94703"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "67",
+        "lat": 41.27987,
+        "lng": -72.95024,
+        "result": {
+            "request": {
+                "lat": "41.27987",
+                "lng": "-72.95024"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "68",
+        "lat": 41.29677,
+        "lng": -72.93497,
+        "result": {
+            "request": {
+                "lat": "41.29677",
+                "lng": "-72.93497"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "69",
+        "lat": 41.30293,
+        "lng": -72.93195,
+        "result": {
+            "request": {
+                "lat": "41.30293",
+                "lng": "-72.93195"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "70",
+        "lat": 41.30546,
+        "lng": -72.93562,
+        "result": {
+            "request": {
+                "lat": "41.30546",
+                "lng": "-72.93562"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 48,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "71",
+        "lat": 41.29797,
+        "lng": -72.89164,
+        "result": {
+            "request": {
+                "lat": "41.29797",
+                "lng": "-72.89164"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "72",
+        "lat": 41.32123,
+        "lng": -72.90978,
+        "result": {
+            "request": {
+                "lat": "41.32123",
+                "lng": "-72.90978"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "73",
+        "lat": 41.28362,
+        "lng": -72.94879,
+        "result": {
+            "request": {
+                "lat": "41.28362",
+                "lng": "-72.94879"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "74",
+        "lat": 41.28316,
+        "lng": -72.92772,
+        "result": {
+            "request": {
+                "lat": "41.28316",
+                "lng": "-72.92772"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "75",
+        "lat": 41.28666,
+        "lng": -72.92992,
+        "result": {
+            "request": {
+                "lat": "41.28666",
+                "lng": "-72.92992"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "76",
+        "lat": 41.2914,
+        "lng": -72.93214,
+        "result": {
+            "request": {
+                "lat": "41.2914",
+                "lng": "-72.93214"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "77",
+        "lat": 41.28375,
+        "lng": -72.88317,
+        "result": {
+            "request": {
+                "lat": "41.28375",
+                "lng": "-72.88317"
+            },
+            "result": [
+                {
+                    "airports": 3,
+                    "airportstext": "Busy",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "78",
+        "lat": 41.3147,
+        "lng": -72.89273,
+        "result": {
+            "request": {
+                "lat": "41.3147",
+                "lng": "-72.89273"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "79",
+        "lat": 41.31518,
+        "lng": -72.89534,
+        "result": {
+            "request": {
+                "lat": "41.31518",
+                "lng": "-72.89534"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "80",
+        "lat": 41.31009,
+        "lng": -72.89966,
+        "result": {
+            "request": {
+                "lat": "41.31009",
+                "lng": "-72.89966"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "81",
+        "lat": 41.31835,
+        "lng": -72.88764,
+        "result": {
+            "request": {
+                "lat": "41.31835",
+                "lng": "-72.88764"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "82",
+        "lat": 41.30994,
+        "lng": -72.89244,
+        "result": {
+            "request": {
+                "lat": "41.30994",
+                "lng": "-72.89244"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "83",
+        "lat": 41.31349,
+        "lng": -72.89401,
+        "result": {
+            "request": {
+                "lat": "41.31349",
+                "lng": "-72.89401"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 28,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "84",
+        "lat": 41.3185,
+        "lng": -72.89396,
+        "result": {
+            "request": {
+                "lat": "41.3185",
+                "lng": "-72.89396"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "85",
+        "lat": 41.33187,
+        "lng": -72.8698,
+        "result": {
+            "request": {
+                "lat": "41.33187",
+                "lng": "-72.8698"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "86",
+        "lat": 41.29147,
+        "lng": -72.89128,
+        "result": {
+            "request": {
+                "lat": "41.29147",
+                "lng": "-72.89128"
+            },
+            "result": [
+                {
+                    "airports": 1,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "87",
+        "lat": 41.30491,
+        "lng": -72.93719,
+        "result": {
+            "request": {
+                "lat": "41.30491",
+                "lng": "-72.93719"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "88",
+        "lat": 41.28089,
+        "lng": -72.89725,
+        "result": {
+            "request": {
+                "lat": "41.28089",
+                "lng": "-72.89725"
+            },
+            "result": [
+                {
+                    "airports": 1,
+                    "airportstext": "Active",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 28,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "89",
+        "lat": 41.28754,
+        "lng": -72.89511,
+        "result": {
+            "request": {
+                "lat": "41.28754",
+                "lng": "-72.89511"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 37,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "90",
+        "lat": 41.30937,
+        "lng": -72.90976,
+        "result": {
+            "request": {
+                "lat": "41.30937",
+                "lng": "-72.90976"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "91",
+        "lat": 41.3117,
+        "lng": -72.90949,
+        "result": {
+            "request": {
+                "lat": "41.3117",
+                "lng": "-72.90949"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "92",
+        "lat": 41.31596,
+        "lng": -72.90897,
+        "result": {
+            "request": {
+                "lat": "41.31596",
+                "lng": "-72.90897"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 63,
+                    "scoretext": "Busy",
+                    "traffic": 52,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "93",
+        "lat": 41.29314,
+        "lng": -72.92351,
+        "result": {
+            "request": {
+                "lat": "41.29314",
+                "lng": "-72.92351"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "94",
+        "lat": 41.30117,
+        "lng": -72.92966,
+        "result": {
+            "request": {
+                "lat": "41.30117",
+                "lng": "-72.92966"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "95",
+        "lat": 41.3328,
+        "lng": -72.87078,
+        "result": {
+            "request": {
+                "lat": "41.3328",
+                "lng": "-72.87078"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "96",
+        "lat": 41.28658,
+        "lng": -72.88984,
+        "result": {
+            "request": {
+                "lat": "41.28658",
+                "lng": "-72.88984"
+            },
+            "result": [
+                {
+                    "airports": 3,
+                    "airportstext": "Busy",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "97",
+        "lat": 41.30978,
+        "lng": -72.91878,
+        "result": {
+            "request": {
+                "lat": "41.30978",
+                "lng": "-72.91878"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "98",
+        "lat": 41.31123,
+        "lng": -72.92439,
+        "result": {
+            "request": {
+                "lat": "41.31123",
+                "lng": "-72.92439"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "99",
+        "lat": 41.29188,
+        "lng": -72.89224,
+        "result": {
+            "request": {
+                "lat": "41.29188",
+                "lng": "-72.89224"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "100",
+        "lat": 41.31716,
+        "lng": -72.9084,
+        "result": {
+            "request": {
+                "lat": "41.31716",
+                "lng": "-72.9084"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "101",
+        "lat": 41.30458,
+        "lng": -72.92688,
+        "result": {
+            "request": {
+                "lat": "41.30458",
+                "lng": "-72.92688"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "102",
+        "lat": 41.31026,
+        "lng": -72.9227,
+        "result": {
+            "request": {
+                "lat": "41.31026",
+                "lng": "-72.9227"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "103",
+        "lat": 41.29339,
+        "lng": -72.92037,
+        "result": {
+            "request": {
+                "lat": "41.29339",
+                "lng": "-72.92037"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 61,
+                    "scoretext": "Busy",
+                    "traffic": 54,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "104",
+        "lat": 41.29432,
+        "lng": -72.89408,
+        "result": {
+            "request": {
+                "lat": "41.29432",
+                "lng": "-72.89408"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "105",
+        "lat": 41.29787,
+        "lng": -72.93591,
+        "result": {
+            "request": {
+                "lat": "41.29787",
+                "lng": "-72.93591"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "106",
+        "lat": 41.28336,
+        "lng": -72.88184,
+        "result": {
+            "request": {
+                "lat": "41.28336",
+                "lng": "-72.88184"
+            },
+            "result": [
+                {
+                    "airports": 2,
+                    "airportstext": "Busy",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "107",
+        "lat": 41.33412,
+        "lng": -72.87191,
+        "result": {
+            "request": {
+                "lat": "41.33412",
+                "lng": "-72.87191"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "108",
+        "lat": 41.29302,
+        "lng": -72.88974,
+        "result": {
+            "request": {
+                "lat": "41.29302",
+                "lng": "-72.88974"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "109",
+        "lat": 41.28693,
+        "lng": -72.889,
+        "result": {
+            "request": {
+                "lat": "41.28693",
+                "lng": "-72.889"
+            },
+            "result": [
+                {
+                    "airports": 4,
+                    "airportstext": "Busy",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "110",
+        "lat": 41.32046,
+        "lng": -72.89083,
+        "result": {
+            "request": {
+                "lat": "41.32046",
+                "lng": "-72.89083"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 59,
+                    "scoretext": "Busy",
+                    "traffic": 49,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "111",
+        "lat": 41.32427,
+        "lng": -72.88304,
+        "result": {
+            "request": {
+                "lat": "41.32427",
+                "lng": "-72.88304"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 58,
+                    "scoretext": "Busy",
+                    "traffic": 54,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "112",
+        "lat": 41.28048,
+        "lng": -72.895,
+        "result": {
+            "request": {
+                "lat": "41.28048",
+                "lng": "-72.895"
+            },
+            "result": [
+                {
+                    "airports": 2,
+                    "airportstext": "Active",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "113",
+        "lat": 41.28554,
+        "lng": -72.89336,
+        "result": {
+            "request": {
+                "lat": "41.28554",
+                "lng": "-72.89336"
+            },
+            "result": [
+                {
+                    "airports": 1,
+                    "airportstext": "Active",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "114",
+        "lat": 41.28966,
+        "lng": -72.88926,
+        "result": {
+            "request": {
+                "lat": "41.28966",
+                "lng": "-72.88926"
+            },
+            "result": [
+                {
+                    "airports": 2,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 51,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "115",
+        "lat": 41.32067,
+        "lng": -72.8989,
+        "result": {
+            "request": {
+                "lat": "41.32067",
+                "lng": "-72.8989"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "116",
+        "lat": 41.31325,
+        "lng": -72.88986,
+        "result": {
+            "request": {
+                "lat": "41.31325",
+                "lng": "-72.88986"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 28,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "117",
+        "lat": 41.28772,
+        "lng": -72.94854,
+        "result": {
+            "request": {
+                "lat": "41.28772",
+                "lng": "-72.94854"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "118",
+        "lat": 41.32431,
+        "lng": -72.91467,
+        "result": {
+            "request": {
+                "lat": "41.32431",
+                "lng": "-72.91467"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "119",
+        "lat": 41.31382,
+        "lng": -72.87781,
+        "result": {
+            "request": {
+                "lat": "41.31382",
+                "lng": "-72.87781"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "120",
+        "lat": 41.27617,
+        "lng": -72.9417,
+        "result": {
+            "request": {
+                "lat": "41.27617",
+                "lng": "-72.9417"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "121",
+        "lat": 41.27946,
+        "lng": -72.9408,
+        "result": {
+            "request": {
+                "lat": "41.27946",
+                "lng": "-72.9408"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "122",
+        "lat": 41.28107,
+        "lng": -72.94321,
+        "result": {
+            "request": {
+                "lat": "41.28107",
+                "lng": "-72.94321"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "123",
+        "lat": 41.33132,
+        "lng": -72.86719,
+        "result": {
+            "request": {
+                "lat": "41.33132",
+                "lng": "-72.86719"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 36,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "124",
+        "lat": 41.32517,
+        "lng": -72.89546,
+        "result": {
+            "request": {
+                "lat": "41.32517",
+                "lng": "-72.89546"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "125",
+        "lat": 41.29347,
+        "lng": -72.93221,
+        "result": {
+            "request": {
+                "lat": "41.29347",
+                "lng": "-72.93221"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "126",
+        "lat": 41.2915,
+        "lng": -72.93514,
+        "result": {
+            "request": {
+                "lat": "41.2915",
+                "lng": "-72.93514"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "127",
+        "lat": 41.29071,
+        "lng": -72.93911,
+        "result": {
+            "request": {
+                "lat": "41.29071",
+                "lng": "-72.93911"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "128",
+        "lat": 41.28324,
+        "lng": -72.88878,
+        "result": {
+            "request": {
+                "lat": "41.28324",
+                "lng": "-72.88878"
+            },
+            "result": [
+                {
+                    "airports": 5,
+                    "airportstext": "Busy",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 28,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "129",
+        "lat": 41.28463,
+        "lng": -72.88556,
+        "result": {
+            "request": {
+                "lat": "41.28463",
+                "lng": "-72.88556"
+            },
+            "result": [
+                {
+                    "airports": 4,
+                    "airportstext": "Busy",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "130",
+        "lat": 41.30394,
+        "lng": -72.92768,
+        "result": {
+            "request": {
+                "lat": "41.30394",
+                "lng": "-72.92768"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "131",
+        "lat": 41.30813,
+        "lng": -72.93636,
+        "result": {
+            "request": {
+                "lat": "41.30813",
+                "lng": "-72.93636"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "132",
+        "lat": 41.308,
+        "lng": -72.91243,
+        "result": {
+            "request": {
+                "lat": "41.308",
+                "lng": "-72.91243"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "133",
+        "lat": 41.31772,
+        "lng": -72.91682,
+        "result": {
+            "request": {
+                "lat": "41.31772",
+                "lng": "-72.91682"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "134",
+        "lat": 41.29745,
+        "lng": -72.88856,
+        "result": {
+            "request": {
+                "lat": "41.29745",
+                "lng": "-72.88856"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "135",
+        "lat": 41.30026,
+        "lng": -72.93249,
+        "result": {
+            "request": {
+                "lat": "41.30026",
+                "lng": "-72.93249"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "136",
+        "lat": 41.32243,
+        "lng": -72.87602,
+        "result": {
+            "request": {
+                "lat": "41.32243",
+                "lng": "-72.87602"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "137",
+        "lat": 41.32409,
+        "lng": -72.87618,
+        "result": {
+            "request": {
+                "lat": "41.32409",
+                "lng": "-72.87618"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "138",
+        "lat": 41.30682,
+        "lng": -72.91879,
+        "result": {
+            "request": {
+                "lat": "41.30682",
+                "lng": "-72.91879"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "139",
+        "lat": 41.31755,
+        "lng": -72.91339,
+        "result": {
+            "request": {
+                "lat": "41.31755",
+                "lng": "-72.91339"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "140",
+        "lat": 41.32075,
+        "lng": -72.91091,
+        "result": {
+            "request": {
+                "lat": "41.32075",
+                "lng": "-72.91091"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "141",
+        "lat": 41.32335,
+        "lng": -72.90734,
+        "result": {
+            "request": {
+                "lat": "41.32335",
+                "lng": "-72.90734"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "142",
+        "lat": 41.29439,
+        "lng": -72.89058,
+        "result": {
+            "request": {
+                "lat": "41.29439",
+                "lng": "-72.89058"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "143",
+        "lat": 41.28823,
+        "lng": -72.92323,
+        "result": {
+            "request": {
+                "lat": "41.28823",
+                "lng": "-72.92323"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "144",
+        "lat": 41.297,
+        "lng": -72.91542,
+        "result": {
+            "request": {
+                "lat": "41.297",
+                "lng": "-72.91542"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 47,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "145",
+        "lat": 41.29062,
+        "lng": -72.92109,
+        "result": {
+            "request": {
+                "lat": "41.29062",
+                "lng": "-72.92109"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "146",
+        "lat": 41.27493,
+        "lng": -72.94239,
+        "result": {
+            "request": {
+                "lat": "41.27493",
+                "lng": "-72.94239"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "147",
+        "lat": 41.31009,
+        "lng": -72.89842,
+        "result": {
+            "request": {
+                "lat": "41.31009",
+                "lng": "-72.89842"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "148",
+        "lat": 41.31477,
+        "lng": -72.89941,
+        "result": {
+            "request": {
+                "lat": "41.31477",
+                "lng": "-72.89941"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "149",
+        "lat": 41.27822,
+        "lng": -72.94575,
+        "result": {
+            "request": {
+                "lat": "41.27822",
+                "lng": "-72.94575"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "150",
+        "lat": 41.27672,
+        "lng": -72.9481,
+        "result": {
+            "request": {
+                "lat": "41.27672",
+                "lng": "-72.9481"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "151",
+        "lat": 41.30728,
+        "lng": -72.92185,
+        "result": {
+            "request": {
+                "lat": "41.30728",
+                "lng": "-72.92185"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "152",
+        "lat": 41.30983,
+        "lng": -72.9279,
+        "result": {
+            "request": {
+                "lat": "41.30983",
+                "lng": "-72.9279"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "153",
+        "lat": 41.29074,
+        "lng": -72.93648,
+        "result": {
+            "request": {
+                "lat": "41.29074",
+                "lng": "-72.93648"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "154",
+        "lat": 41.28925,
+        "lng": -72.93951,
+        "result": {
+            "request": {
+                "lat": "41.28925",
+                "lng": "-72.93951"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "155",
+        "lat": 41.31285,
+        "lng": -72.91621,
+        "result": {
+            "request": {
+                "lat": "41.31285",
+                "lng": "-72.91621"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "156",
+        "lat": 41.28455,
+        "lng": -72.89223,
+        "result": {
+            "request": {
+                "lat": "41.28455",
+                "lng": "-72.89223"
+            },
+            "result": [
+                {
+                    "airports": 2,
+                    "airportstext": "Active",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "157",
+        "lat": 41.31496,
+        "lng": -72.92304,
+        "result": {
+            "request": {
+                "lat": "41.31496",
+                "lng": "-72.92304"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "158",
+        "lat": 41.31829,
+        "lng": -72.91501,
+        "result": {
+            "request": {
+                "lat": "41.31829",
+                "lng": "-72.91501"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "159",
+        "lat": 41.32248,
+        "lng": -72.9151,
+        "result": {
+            "request": {
+                "lat": "41.32248",
+                "lng": "-72.9151"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "160",
+        "lat": 41.32347,
+        "lng": -72.91394,
+        "result": {
+            "request": {
+                "lat": "41.32347",
+                "lng": "-72.91394"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "161",
+        "lat": 41.28952,
+        "lng": -72.88796,
+        "result": {
+            "request": {
+                "lat": "41.28952",
+                "lng": "-72.88796"
+            },
+            "result": [
+                {
+                    "airports": 3,
+                    "airportstext": "Busy",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 48,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "162",
+        "lat": 41.3075,
+        "lng": -72.93319,
+        "result": {
+            "request": {
+                "lat": "41.3075",
+                "lng": "-72.93319"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "163",
+        "lat": 41.32047,
+        "lng": -72.91848,
+        "result": {
+            "request": {
+                "lat": "41.32047",
+                "lng": "-72.91848"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "164",
+        "lat": 41.2813,
+        "lng": -72.88593,
+        "result": {
+            "request": {
+                "lat": "41.2813",
+                "lng": "-72.88593"
+            },
+            "result": [
+                {
+                    "airports": 5,
+                    "airportstext": "Busy",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "165",
+        "lat": 41.31582,
+        "lng": -72.90945,
+        "result": {
+            "request": {
+                "lat": "41.31582",
+                "lng": "-72.90945"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 50,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "166",
+        "lat": 41.30458,
+        "lng": -72.90289,
+        "result": {
+            "request": {
+                "lat": "41.30458",
+                "lng": "-72.90289"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "167",
+        "lat": 41.30321,
+        "lng": -72.93758,
+        "result": {
+            "request": {
+                "lat": "41.30321",
+                "lng": "-72.93758"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "168",
+        "lat": 41.2873,
+        "lng": -72.90061,
+        "result": {
+            "request": {
+                "lat": "41.2873",
+                "lng": "-72.90061"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "169",
+        "lat": 41.31931,
+        "lng": -72.91208,
+        "result": {
+            "request": {
+                "lat": "41.31931",
+                "lng": "-72.91208"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "170",
+        "lat": 41.31756,
+        "lng": -72.92924,
+        "result": {
+            "request": {
+                "lat": "41.31756",
+                "lng": "-72.92924"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 77,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "171",
+        "lat": 41.30692,
+        "lng": -72.93709,
+        "result": {
+            "request": {
+                "lat": "41.30692",
+                "lng": "-72.93709"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 49,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "172",
+        "lat": 41.31396,
+        "lng": -72.9005,
+        "result": {
+            "request": {
+                "lat": "41.31396",
+                "lng": "-72.9005"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "173",
+        "lat": 41.3223,
+        "lng": -72.91451,
+        "result": {
+            "request": {
+                "lat": "41.3223",
+                "lng": "-72.91451"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "174",
+        "lat": 41.28873,
+        "lng": -72.89191,
+        "result": {
+            "request": {
+                "lat": "41.28873",
+                "lng": "-72.89191"
+            },
+            "result": [
+                {
+                    "airports": 1,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 61,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "175",
+        "lat": 41.30888,
+        "lng": -72.89704,
+        "result": {
+            "request": {
+                "lat": "41.30888",
+                "lng": "-72.89704"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "176",
+        "lat": 41.31735,
+        "lng": -72.87615,
+        "result": {
+            "request": {
+                "lat": "41.31735",
+                "lng": "-72.87615"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 70,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "177",
+        "lat": 41.30267,
+        "lng": -72.92274,
+        "result": {
+            "request": {
+                "lat": "41.30267",
+                "lng": "-72.92274"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "178",
+        "lat": 41.29749,
+        "lng": -72.88773,
+        "result": {
+            "request": {
+                "lat": "41.29749",
+                "lng": "-72.88773"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 26,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "179",
+        "lat": 41.32877,
+        "lng": -72.87065,
+        "result": {
+            "request": {
+                "lat": "41.32877",
+                "lng": "-72.87065"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "180",
+        "lat": 41.32187,
+        "lng": -72.89676,
+        "result": {
+            "request": {
+                "lat": "41.32187",
+                "lng": "-72.89676"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "181",
+        "lat": 41.31637,
+        "lng": -72.90452,
+        "result": {
+            "request": {
+                "lat": "41.31637",
+                "lng": "-72.90452"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 59,
+                    "scoretext": "Busy",
+                    "traffic": 48,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "182",
+        "lat": 41.3083,
+        "lng": -72.92048,
+        "result": {
+            "request": {
+                "lat": "41.3083",
+                "lng": "-72.92048"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "183",
+        "lat": 41.30956,
+        "lng": -72.89558,
+        "result": {
+            "request": {
+                "lat": "41.30956",
+                "lng": "-72.89558"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "184",
+        "lat": 41.30279,
+        "lng": -72.91563,
+        "result": {
+            "request": {
+                "lat": "41.30279",
+                "lng": "-72.91563"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 48,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "185",
+        "lat": 41.30472,
+        "lng": -72.92484,
+        "result": {
+            "request": {
+                "lat": "41.30472",
+                "lng": "-72.92484"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 6,
+                    "localtext": "Busy",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "186",
+        "lat": 41.30935,
+        "lng": -72.89148,
+        "result": {
+            "request": {
+                "lat": "41.30935",
+                "lng": "-72.89148"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "187",
+        "lat": 41.28517,
+        "lng": -72.93496,
+        "result": {
+            "request": {
+                "lat": "41.28517",
+                "lng": "-72.93496"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 50,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "188",
+        "lat": 41.29172,
+        "lng": -72.94236,
+        "result": {
+            "request": {
+                "lat": "41.29172",
+                "lng": "-72.94236"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "189",
+        "lat": 41.31328,
+        "lng": -72.91865,
+        "result": {
+            "request": {
+                "lat": "41.31328",
+                "lng": "-72.91865"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "190",
+        "lat": 41.30213,
+        "lng": -72.93056,
+        "result": {
+            "request": {
+                "lat": "41.30213",
+                "lng": "-72.93056"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "191",
+        "lat": 41.29673,
+        "lng": -72.89383,
+        "result": {
+            "request": {
+                "lat": "41.29673",
+                "lng": "-72.89383"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 37,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "192",
+        "lat": 41.30483,
+        "lng": -72.91848,
+        "result": {
+            "request": {
+                "lat": "41.30483",
+                "lng": "-72.91848"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 71,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "193",
+        "lat": 41.31363,
+        "lng": -72.92164,
+        "result": {
+            "request": {
+                "lat": "41.31363",
+                "lng": "-72.92164"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "194",
+        "lat": 41.30521,
+        "lng": -72.93293,
+        "result": {
+            "request": {
+                "lat": "41.30521",
+                "lng": "-72.93293"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 63,
+                    "scoretext": "Busy",
+                    "traffic": 49,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "195",
+        "lat": 41.31198,
+        "lng": -72.88902,
+        "result": {
+            "request": {
+                "lat": "41.31198",
+                "lng": "-72.88902"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "196",
+        "lat": 41.28987,
+        "lng": -72.93373,
+        "result": {
+            "request": {
+                "lat": "41.28987",
+                "lng": "-72.93373"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "197",
+        "lat": 41.28691,
+        "lng": -72.88065,
+        "result": {
+            "request": {
+                "lat": "41.28691",
+                "lng": "-72.88065"
+            },
+            "result": [
+                {
+                    "airports": 1,
+                    "airportstext": "Active",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 59,
+                    "scoretext": "Busy",
+                    "traffic": 53,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "198",
+        "lat": 41.2897,
+        "lng": -72.93556,
+        "result": {
+            "request": {
+                "lat": "41.2897",
+                "lng": "-72.93556"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "199",
+        "lat": 41.30841,
+        "lng": -72.90414,
+        "result": {
+            "request": {
+                "lat": "41.30841",
+                "lng": "-72.90414"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "200",
+        "lat": 41.3112,
+        "lng": -72.8947,
+        "result": {
+            "request": {
+                "lat": "41.3112",
+                "lng": "-72.8947"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 31,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "201",
+        "lat": 41.30941,
+        "lng": -72.90428,
+        "result": {
+            "request": {
+                "lat": "41.30941",
+                "lng": "-72.90428"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 35,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "202",
+        "lat": 41.31662,
+        "lng": -72.91723,
+        "result": {
+            "request": {
+                "lat": "41.31662",
+                "lng": "-72.91723"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "203",
+        "lat": 41.3085,
+        "lng": -72.9032,
+        "result": {
+            "request": {
+                "lat": "41.3085",
+                "lng": "-72.9032"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Busy",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "204",
+        "lat": 41.30463,
+        "lng": -72.92841,
+        "result": {
+            "request": {
+                "lat": "41.30463",
+                "lng": "-72.92841"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "205",
+        "lat": 41.29731,
+        "lng": -72.93782,
+        "result": {
+            "request": {
+                "lat": "41.29731",
+                "lng": "-72.93782"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "206",
+        "lat": 41.32513,
+        "lng": -72.90943,
+        "result": {
+            "request": {
+                "lat": "41.32513",
+                "lng": "-72.90943"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 30,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "207",
+        "lat": 41.32481,
+        "lng": -72.90217,
+        "result": {
+            "request": {
+                "lat": "41.32481",
+                "lng": "-72.90217"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 79,
+                    "scoretext": "Active",
+                    "traffic": 27,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "208",
+        "lat": 41.2926,
+        "lng": -72.94193,
+        "result": {
+            "request": {
+                "lat": "41.2926",
+                "lng": "-72.94193"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 34,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "209",
+        "lat": 41.29583,
+        "lng": -72.9337,
+        "result": {
+            "request": {
+                "lat": "41.29583",
+                "lng": "-72.9337"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "210",
+        "lat": 41.30869,
+        "lng": -72.91125,
+        "result": {
+            "request": {
+                "lat": "41.30869",
+                "lng": "-72.91125"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "211",
+        "lat": 41.28165,
+        "lng": -72.93826,
+        "result": {
+            "request": {
+                "lat": "41.28165",
+                "lng": "-72.93826"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "212",
+        "lat": 41.32264,
+        "lng": -72.90658,
+        "result": {
+            "request": {
+                "lat": "41.32264",
+                "lng": "-72.90658"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 74,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "213",
+        "lat": 41.30464,
+        "lng": -72.92633,
+        "result": {
+            "request": {
+                "lat": "41.30464",
+                "lng": "-72.92633"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 5,
+                    "localtext": "Busy",
+                    "score": 68,
+                    "scoretext": "Active",
+                    "traffic": 40,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "214",
+        "lat": 41.31176,
+        "lng": -72.89778,
+        "result": {
+            "request": {
+                "lat": "41.31176",
+                "lng": "-72.89778"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "215",
+        "lat": 41.31063,
+        "lng": -72.89749,
+        "result": {
+            "request": {
+                "lat": "41.31063",
+                "lng": "-72.89749"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "216",
+        "lat": 41.30244,
+        "lng": -72.90009,
+        "result": {
+            "request": {
+                "lat": "41.30244",
+                "lng": "-72.90009"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 29,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "217",
+        "lat": 41.29243,
+        "lng": -72.90246,
+        "result": {
+            "request": {
+                "lat": "41.29243",
+                "lng": "-72.90246"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 0,
+                    "localtext": "Calm",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 41,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "218",
+        "lat": 41.29913,
+        "lng": -72.92216,
+        "result": {
+            "request": {
+                "lat": "41.29913",
+                "lng": "-72.92216"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 69,
+                    "scoretext": "Active",
+                    "traffic": 38,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "219",
+        "lat": 41.31664,
+        "lng": -72.93048,
+        "result": {
+            "request": {
+                "lat": "41.31664",
+                "lng": "-72.93048"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 78,
+                    "scoretext": "Active",
+                    "traffic": 28,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "220",
+        "lat": 41.2863,
+        "lng": -72.88024,
+        "result": {
+            "request": {
+                "lat": "41.2863",
+                "lng": "-72.88024"
+            },
+            "result": [
+                {
+                    "airports": 1,
+                    "airportstext": "Active",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 58,
+                    "scoretext": "Busy",
+                    "traffic": 49,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "221",
+        "lat": 41.28618,
+        "lng": -72.93099,
+        "result": {
+            "request": {
+                "lat": "41.28618",
+                "lng": "-72.93099"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 44,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "222",
+        "lat": 41.29424,
+        "lng": -72.90213,
+        "result": {
+            "request": {
+                "lat": "41.29424",
+                "lng": "-72.90213"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 63,
+                    "scoretext": "Busy",
+                    "traffic": 52,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "223",
+        "lat": 41.29257,
+        "lng": -72.90127,
+        "result": {
+            "request": {
+                "lat": "41.29257",
+                "lng": "-72.90127"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 64,
+                    "scoretext": "Busy",
+                    "traffic": 50,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "224",
+        "lat": 41.31111,
+        "lng": -72.92973,
+        "result": {
+            "request": {
+                "lat": "41.31111",
+                "lng": "-72.92973"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 4,
+                    "localtext": "Busy",
+                    "score": 66,
+                    "scoretext": "Busy",
+                    "traffic": 42,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "225",
+        "lat": 41.29732,
+        "lng": -72.92869,
+        "result": {
+            "request": {
+                "lat": "41.29732",
+                "lng": "-72.92869"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "226",
+        "lat": 41.29463,
+        "lng": -72.89335,
+        "result": {
+            "request": {
+                "lat": "41.29463",
+                "lng": "-72.89335"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Active",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 67,
+                    "scoretext": "Busy",
+                    "traffic": 43,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "227",
+        "lat": 41.28759,
+        "lng": -72.93406,
+        "result": {
+            "request": {
+                "lat": "41.28759",
+                "lng": "-72.93406"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 73,
+                    "scoretext": "Active",
+                    "traffic": 37,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "228",
+        "lat": 41.31107,
+        "lng": -72.91786,
+        "result": {
+            "request": {
+                "lat": "41.31107",
+                "lng": "-72.91786"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 2,
+                    "localtext": "Active",
+                    "score": 61,
+                    "scoretext": "Busy",
+                    "traffic": 49,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "229",
+        "lat": 41.30016,
+        "lng": -72.92948,
+        "result": {
+            "request": {
+                "lat": "41.30016",
+                "lng": "-72.92948"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 3,
+                    "localtext": "Active",
+                    "score": 65,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "230",
+        "lat": 41.2842,
+        "lng": -72.93459,
+        "result": {
+            "request": {
+                "lat": "41.2842",
+                "lng": "-72.93459"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 57,
+                    "scoretext": "Busy",
+                    "traffic": 55,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "231",
+        "lat": 41.32306,
+        "lng": -72.8754,
+        "result": {
+            "request": {
+                "lat": "41.32306",
+                "lng": "-72.8754"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 75,
+                    "scoretext": "Active",
+                    "traffic": 33,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "232",
+        "lat": 41.31564,
+        "lng": -72.92191,
+        "result": {
+            "request": {
+                "lat": "41.31564",
+                "lng": "-72.92191"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 72,
+                    "scoretext": "Active",
+                    "traffic": 39,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "233",
+        "lat": 41.31073,
+        "lng": -72.91354,
+        "result": {
+            "request": {
+                "lat": "41.31073",
+                "lng": "-72.91354"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 62,
+                    "scoretext": "Busy",
+                    "traffic": 45,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "234",
+        "lat": 41.30967,
+        "lng": -72.91392,
+        "result": {
+            "request": {
+                "lat": "41.30967",
+                "lng": "-72.91392"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 61,
+                    "scoretext": "Busy",
+                    "traffic": 46,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    },
+    {
+        "id": "235",
+        "lat": 41.32229,
+        "lng": -72.90081,
+        "result": {
+            "request": {
+                "lat": "41.32229",
+                "lng": "-72.90081"
+            },
+            "result": [
+                {
+                    "airports": 0,
+                    "airportstext": "Calm",
+                    "local": 1,
+                    "localtext": "Active",
+                    "score": 76,
+                    "scoretext": "Active",
+                    "traffic": 32,
+                    "traffictext": "Busy"
+                }
+            ],
+            "status": "OK"
+        }
+    }
+]
