@@ -6,7 +6,8 @@ import osmnx as ox
 import requests
 import json
 import os
-from pdal import Pipeline
+import pdal
+from tqdm import tqdm
 from shapely import Polygon
 
 def street2Point(roadDF: gpd.GeoDataFrame, interval_meters: float) -> gpd.GeoDataFrame:
@@ -170,46 +171,38 @@ def map_data(base: gpd.GeoDataFrame, scores: gpd.GeoDataFrame, z: str, title: st
     plt.title(title)
     plt.show()
 
-def get_point_cloud(buffer: gpd.GeoDataFrame, to_file: str = "/_data/lidar_recent.pkl") -> gpd.GeoDataFrame:
+def get_lidar_tiles(tiles: list[tuple[str, str]], to_dir: str = "lidar_tiles") -> None:
+    """
+    Downloads all of the LiDAR tiles from the input list of tile files.
 
-    if os.path.exists(to_file):
-        return pd.read_pickle(to_file)
+    :param tiles: A list of url-filename pairs; each corresponds to a LiDAR tile
+    :type tiles: list
+    :param to_dir: Output directory for the tile downloads
+    :type to_dir: str
+    """
 
-    # Get bounding box as first layer of cropping
-    minx, miny, maxx, maxy = buffer.to_crs(3857).total_bounds
-    bounds = f"([{minx},{maxx}],[{miny},{maxy}])"
+    # Setup output folder, if needed
+    save_directory = os.path.join("_data", to_dir)
+    if not os.path.exists(save_directory):
+        os.makedirs(save_directory)
 
-    # Get target area's WKT for more precise cropping
-    buffer_wkt = buffer.geometry.to_crs(3857).iloc[0].wkt
+    for url, filename in tqdm(tiles):
 
-    # Create EPT pipeline
-    pipeline = {
-        "pipeline": [
-            {
-                "type": "readers.ept",
-                "filename": "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/CT_Statewide_B1_2016/ept.json",
-                "bounds" : bounds               # Crop to the Target Area bounding box
-            },
-            {
-                "type": "filters.crop",         # Crop to the Target Area polygon
-                "polygon": buffer_wkt
-            },
-            {
-                "type": "filters.hag_delaunay"  # Computes Height Above Ground
-            }
-        ]
-    }
+        try:
+            # Get file and set save path
+            response = requests.get(url, stream=True)
+            save_path = os.path.join(save_directory, filename)
 
-    p = Pipeline(json.dumps(pipeline))
-    p.execute()
+            # Check for HTTPErrors
+            response.raise_for_status()
 
-    points = p.arrays[0]
-    pointsDF = pd.DataFrame(points)
-    pointsGDF = gpd.GeoDataFrame(
-        pointsDF,
-        geometry=gpd.points_from_xy(pointsDF.X, pointsDF.Y),
-        crs=4326
-    )
+            # Write output to file
+            with open(save_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
 
-    pointsGDF.to_pickle(to_file)
-    return pointsGDF
+        except requests.exceptions.RequestException as e:
+            print(f"An error occurred during the request: {e}")
+        except IOError as e:
+            print(f"An error occurred while writing the file: {e}")
+

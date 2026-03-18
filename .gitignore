@@ -1,11 +1,20 @@
 __pycache__/
 cache/
 .DS_Store
+
+# NHV-Specific Data
 _data/CT_3D_Buildings_Block3_2023/
+_data/lidar_tiles/
+_data/tileindex_CT_statewide_m10296.gpkg
 
 # Virtual Environment
 .venv/
 .env
 
+# Personal; may add later
+_images/
+_research/
+
 # Old Code
 graveyard.py
+notes.txt

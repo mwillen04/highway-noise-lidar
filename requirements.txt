@@ -7,3 +7,4 @@ seaborn
 pdal
 shapely
 dotenv
+tqdm
