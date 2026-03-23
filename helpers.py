@@ -6,11 +6,11 @@ import osmnx as ox
 import requests
 import json
 import os
-import pdal
+from pdal import Pipeline
 from tqdm import tqdm
 from shapely import Polygon
 
-def street2Point(roadDF: gpd.GeoDataFrame, interval_meters: float) -> gpd.GeoDataFrame:
+def street2Point(roadDF: gpd.GeoDataFrame, interval_meters: float, asGDF: bool = True) -> gpd.GeoDataFrame | pd.DataFrame:
     """
     This function generates random points for all streets with a 50-meter interval.
 
@@ -68,6 +68,8 @@ def street2Point(roadDF: gpd.GeoDataFrame, interval_meters: float) -> gpd.GeoDat
     pts_shp = pts_shp.drop(['geometry'], axis=1)
     pts_shp.columns = ["id", "lon", "lat"]
 
+    if asGDF: 
+        return gpd.GeoDataFrame(pts_shp, geometry=gpd.points_from_xy(pts_shp.lon, pts_shp.lat, crs="EPSG:4326"))
     return pts_shp
 
 def create_target_area(place: str, buffer_dist: float = 1000) -> dict:
@@ -206,3 +208,58 @@ def get_lidar_tiles(tiles: list[tuple[str, str]], to_dir: str = "lidar_tiles") -
         except IOError as e:
             print(f"An error occurred while writing the file: {e}")
 
+def tile_viz(tiles: gpd.GeoDataFrame, lw: float = 1) -> None:
+
+    tiles.plot(edgecolor="black",facecolor='none', linewidth=lw)
+    plt.title(f"{len(tiles)} Tiles")
+    plt.show()
+
+def preprocessing_viz(points, tiles, highways, buffer_dist):
+
+    processing_area = points.dissolve().buffer(buffer_dist/111111)
+    fig, ax = plt.subplots(1,2, figsize = (15,10))
+
+    # Plot 1
+    tiles_final = gpd.clip(tiles, processing_area)
+    tiles_final.plot(ax=ax[0], edgecolor="black",facecolor='none')
+    ax[0].set_title(f"{len(tiles_final)} Tiles")
+    
+    # Plot 2
+    tiles.plot(ax=ax[1], edgecolor="black",facecolor='none', zorder=0)
+    highways.to_crs(4326).plot(ax=ax[1], color = "red", zorder=3)
+    points.plot(ax=ax[1], zorder=2, column="traffic", cmap="viridis")
+    processing_area.plot(ax=ax[1], zorder=1.5, color="none", edgecolor="blue", linewidth=2)
+    ax[1].set_title(f"{buffer_dist} Meter Buffer")
+
+    plt.show()
+
+def read_copc(tiles: list[str], dir: str, polygon: gpd.GeoDataFrame):
+    """
+    Read Cloud-Optimized Point Cloud (COPC) files and return the point cloud data in the target area
+    """
+
+    files = gpd.clip(tiles, polygon)['filename'].values.tolist()
+
+    # Get WKT string for area of interest
+    polygon_wkt = polygon.geometry.to_crs(4326).iloc[0].wkt
+
+    # Collect the point cloud data for every file
+    for file in tqdm(files):
+
+        filename = os.path.join("_data", dir, file)
+        
+        # Create pipeline and filter by area and classification to minimize runtime
+        pipeline = {
+            "pipeline": [
+                {
+                    "type": "readers.copc",
+                    "filename": filename,
+                    "polygon": polygon_wkt,
+                    "limits": "Classification[2:6]"
+                }
+            ]
+        }
+
+        # Create and execute the PDAL pipeline
+        p = Pipeline(pipeline)
+        p.execute()
