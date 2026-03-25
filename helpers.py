@@ -214,9 +214,12 @@ def tile_viz(tiles: gpd.GeoDataFrame, lw: float = 1) -> None:
     plt.title(f"{len(tiles)} Tiles")
     plt.show()
 
-def preprocessing_viz(points, tiles, highways, buffer_dist):
+def preprocessing_viz(points, tiles, highways, buffers = int | gpd.GeoDataFrame):
 
-    processing_area = points.dissolve().buffer(buffer_dist/111111)
+    if type(buffers) == gpd.GeoDataFrame:
+        processing_area = buffers
+    else:
+        processing_area = points.dissolve().buffer(buffers/111111)
     fig, ax = plt.subplots(1,2, figsize = (15,10))
 
     # Plot 1
@@ -229,7 +232,10 @@ def preprocessing_viz(points, tiles, highways, buffer_dist):
     highways.to_crs(4326).plot(ax=ax[1], color = "red", zorder=3)
     points.plot(ax=ax[1], zorder=2, column="traffic", cmap="viridis")
     processing_area.plot(ax=ax[1], zorder=1.5, color="none", edgecolor="blue", linewidth=2)
-    ax[1].set_title(f"{buffer_dist} Meter Buffer")
+    if type(buffers) == gpd.GeoDataFrame:
+        ax[1].set_title("Buffer Areas")
+    else:
+        ax[1].set_title(f"{buffers} Meter Buffer")
 
     plt.show()
 
