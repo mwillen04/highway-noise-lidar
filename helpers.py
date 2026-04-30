@@ -9,6 +9,7 @@ import os
 from pdal import Pipeline
 from tqdm import tqdm
 from shapely import Polygon
+from collections import Counter
 
 def street2Point(roadDF: gpd.GeoDataFrame, interval_meters: float, asGDF: bool = True) -> gpd.GeoDataFrame | pd.DataFrame:
     """
@@ -171,6 +172,8 @@ def map_data(base: gpd.GeoDataFrame, scores: gpd.GeoDataFrame, z: str, title: st
                             legend=True, legend_kwds={"shrink": 0.75})
     
     plt.title(title)
+    ax.xaxis.set_visible(False)
+    ax.yaxis.set_visible(False)
     plt.show()
 
 def get_lidar_tiles(tiles: list[tuple[str, str]], to_dir: str = "lidar_tiles") -> None:
@@ -210,8 +213,11 @@ def get_lidar_tiles(tiles: list[tuple[str, str]], to_dir: str = "lidar_tiles") -
 
 def tile_viz(tiles: gpd.GeoDataFrame, lw: float = 1) -> None:
 
-    tiles.plot(edgecolor="black",facecolor='none', linewidth=lw)
+    fig, ax = plt.subplots(figsize=(10,7))
+    tiles.plot(ax=ax, edgecolor="black",facecolor='none', linewidth=lw)
     plt.title(f"{len(tiles)} Tiles")
+    ax.xaxis.set_visible(False)
+    ax.yaxis.set_visible(False)
     plt.show()
 
 def preprocessing_viz(points, tiles, highways, buffers = int | gpd.GeoDataFrame):
@@ -220,12 +226,17 @@ def preprocessing_viz(points, tiles, highways, buffers = int | gpd.GeoDataFrame)
         processing_area = buffers
     else:
         processing_area = points.dissolve().buffer(buffers/111111)
-    fig, ax = plt.subplots(1,2, figsize = (15,10))
+    fig, ax = plt.subplots(1,2, figsize = (15,10), sharey=True)
+
+    tiles_final = gpd.clip(tiles, processing_area)
+    area = round(sum(tiles_final.to_crs(3857).area) / 1e6, 2)
 
     # Plot 1
-    tiles_final = gpd.clip(tiles, processing_area)
     tiles_final.plot(ax=ax[0], edgecolor="black",facecolor='none')
-    ax[0].set_title(f"{len(tiles_final)} Tiles")
+    ax[0].set_title(f"{len(tiles_final)} Tiles ({area} sq. km)")
+    ax[0].xaxis.set_visible(False)
+    ax[0].yaxis.set_visible(False)
+    ax[0].set_box_aspect(1)
     
     # Plot 2
     tiles.plot(ax=ax[1], edgecolor="black",facecolor='none', zorder=0)
@@ -237,9 +248,13 @@ def preprocessing_viz(points, tiles, highways, buffers = int | gpd.GeoDataFrame)
     else:
         ax[1].set_title(f"{buffers} Meter Buffer")
 
+    ax[1].xaxis.set_visible(False)
+    ax[1].yaxis.set_visible(False)
+    ax[1].set_box_aspect(1)
+
     plt.show()
 
-def read_copc(tiles: list[str], dir: str, polygon: gpd.GeoDataFrame):
+def read_copc(tiles: gpd.GeoDataFrame, dir: str, polygon: gpd.GeoDataFrame):
     """
     Read Cloud-Optimized Point Cloud (COPC) files and return the point cloud data in the target area
     """
@@ -247,10 +262,12 @@ def read_copc(tiles: list[str], dir: str, polygon: gpd.GeoDataFrame):
     files = gpd.clip(tiles, polygon)['filename'].values.tolist()
 
     # Get WKT string for area of interest
-    polygon_wkt = polygon.geometry.to_crs(4326).iloc[0].wkt
+    polygon_wkt = polygon.geometry.to_crs(6347).iloc[0].wkt
+
+    counts = []
 
     # Collect the point cloud data for every file
-    for file in tqdm(files):
+    for file in tqdm(files, leave=False):
 
         filename = os.path.join("_data", dir, file)
         
@@ -260,12 +277,69 @@ def read_copc(tiles: list[str], dir: str, polygon: gpd.GeoDataFrame):
                 {
                     "type": "readers.copc",
                     "filename": filename,
-                    "polygon": polygon_wkt,
-                    "limits": "Classification[2:6]"
+                    "polygon": polygon_wkt
+                },
+                # {
+                #     "type": "filters.range",
+                #     "limits": "Classification[2:6]"
+                # },
+                {
+                    "type": "filters.stats",
+                    "dimensions": "Classification",
+                    "count": "Classification"
                 }
             ]
         }
 
         # Create and execute the PDAL pipeline
-        p = Pipeline(pipeline)
+        p = Pipeline(json.dumps(pipeline))
         p.execute()
+
+        c = p.metadata['metadata']['filters.stats']['statistic'][0]['bins']
+        c = {int(float(k)): v for k, v in c.items() if float(k) >= 2 and float(k) <= 6}
+        counts.append(c)
+
+    result = sum(map(Counter, counts), Counter())
+    return result
+
+def read_copc_points(tiles: gpd.GeoDataFrame, dir: str, polygon: gpd.GeoDataFrame):
+    """
+    Read Cloud-Optimized Point Cloud (COPC) files and return the point cloud data in the target area
+    """
+
+    files = gpd.clip(tiles, polygon)['filename'].values.tolist()
+
+    # Get WKT string for area of interest
+    polygon_wkt = polygon.geometry.to_crs(6347).iloc[0].wkt
+
+    points = []
+
+    # Collect the point cloud data for every file
+    for file in tqdm(files, leave=False):
+
+        filename = os.path.join("_data", dir, file)
+        
+        # Create pipeline and filter by area and classification to minimize runtime
+        pipeline = {
+            "pipeline": [
+                {
+                    "type": "readers.copc",
+                    "filename": filename,
+                    "polygon": polygon_wkt
+                },
+                {
+                    "type": "filters.range",
+                    "limits": "Classification[3:6]"
+                }
+            ]
+        }
+
+        # Create and execute the PDAL pipeline
+        p = Pipeline(json.dumps(pipeline))
+        count = p.execute()
+
+        if count > 0:
+            arr = p.arrays[0]
+            points.append(arr)
+
+    return np.concatenate(points)

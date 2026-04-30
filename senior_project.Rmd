@@ -1,0 +1,344 @@
+---
+title: "Senior Project Modeling"
+author: "Michael Willen"
+date: "2026-04-27"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+setwd('/Users/michaelwillen/Documents/Yale/School/2025-26/Senior Project/')
+
+library(corrplot)
+library(caret)
+library(dplyr)
+```
+
+```{r}
+counts <- read.csv('_data/counts')
+sort(cor(counts)['traffic',])
+```
+
+```{r}
+fit0 <- lm(traffic ~ 1, counts)
+
+fit_dist <- lm(traffic ~ distance, data = counts)
+
+fit_raw <- lm(traffic ~ distance + buildings + high + medium + low + ground + vegetation, data = counts)
+
+fit_anorm <- lm(traffic ~ distance + buildings_anorm + high_anorm + medium_anorm + low_anorm 
+                + ground_anorm + vegetation_anorm, data = counts)
+
+fit_lnorm <- lm(traffic ~ distance + buildings_lnorm + high_lnorm + medium_lnorm + low_lnorm 
+                + ground_lnorm + vegetation_lnorm, data = counts)
+
+model_raw <- step(fit0, scope = list(lower = ~ 1, upper = fit_raw), 
+              direction = "both", data = counts)
+
+model_anorm <- step(fit0, scope = list(lower = ~ 1, upper = fit_anorm), 
+              direction = "both", data = counts)
+
+model_lnorm <- step(fit0, scope = list(lower = ~ 1, upper = fit_lnorm), 
+              direction = "both", data = counts)
+```
+
+```{r}
+summary(fit_dist)$adj.r.squared
+summary(model_raw)$adj.r.squared
+summary(model_anorm)$adj.r.squared
+summary(model_lnorm)$adj.r.squared
+```
+
+
+```{r}
+summary(model_lnorm)
+```
+
+
+```{r}
+y <- counts$traffic
+x <- counts
+
+train_idx <- sample(nrow(x), nrow(x)*0.8) # list of indices for training set
+
+## Training/test split: divide data into training and test sets
+ytrain <- y[train_idx]
+ytest <- y[-train_idx]
+
+xtrain <- x[train_idx,]
+xtest <- x[-train_idx,]
+
+model <- lm(ytrain ~ distance + high_lnorm + buildings_lnorm, data = xtrain)
+```
+
+```{r}
+
+train_control <- trainControl(method = "LOOCV")
+model_loocv <- train(traffic ~ distance + high_lnorm + buildings_lnorm, 
+                     data = counts, method = "lm", trControl = train_control)
+
+```
+
+```{r}
+ypred_loocv <- predict(model_loocv, newdata = counts, interval='prediction', level=0.95)
+ypred <- predict(model, newdata = xtest, interval='prediction', level=0.95)
+```
+
+## Graphing Results
+
+```{r}
+predict_viz <- function(ypred, ytest, formula) {
+  
+  if (!is.null(dim(ypred))) {
+    ypred <- ypred[, "fit"]
+  }
+  limit_range <- range(c(ytest, ypred))
+  rmse <- sqrt(mean((ytest - ypred)^2))
+  
+  plot(ytest, ypred, 
+       xlab = "Actual Traffic Noise", ylab = "Predicted Traffic Noise",
+       main = paste0("Actual vs. Predicted (RMSE = ", round(rmse,3), ")"), 
+       sub = deparse1(formula),
+       cex.sub=0.8,
+       asp=1,
+       pch=19,
+       col='steelblue',
+       xlim = limit_range,
+       ylim = limit_range)
+  
+  abline(0, 1, col = "red")
+  
+  segments(x0 = ytest, y1 = ytest,
+           x1 = ytest, y0 = ypred, 
+           lty = 3)
+  
+  #-------------------------------------------------
+  
+  # plot(ytest, ytest - ypred, 
+  #      xlab = "Actual Traffic Noise", ylab = "Residuals",
+  #      main = "Residuals vs. Traffic Noise", 
+  #      pch=19,
+  #      col='steelblue')
+  # 
+  # abline(h=0, col = "red")
+  # 
+  # segments(x0 = ytest, y1 = ytest - ypred,
+  #          x1 = ytest, y0 = 0, 
+  #          lty = 3)
+  
+}
+
+dist_residual_viz <- function(ypred, ytest, distance, formula) {
+  
+  if (!is.null(dim(ypred))) {
+    ypred <- ypred[, "fit"]
+  }
+  
+  residual <- ytest-ypred
+  abs_residual <- abs(ytest-ypred)
+  plot(distance, residual, 
+       xlab = "Distance (m)", ylab = "Residual",
+       main = "Residuals vs. Highway Distance", 
+       sub = deparse1(formula),
+       cex.sub=0.8,
+       pch=19,
+       col='steelblue')
+  
+  abline(h=0, col='red')
+  
+  segments(x0 = distance, y1 = residual,
+           x1 = distance, y0 = 0, 
+           lty = 3)
+  
+  #-------------------------------------------------
+  
+  # plot(distance, abs_residual, 
+  #      xlab = "Distance (m)", ylab = "Residual Magnitude",
+  #      main = "Residual Magnitude vs. Highway Distance", 
+  #      pch=19,
+  #      col='steelblue')
+  # 
+  # segments(x0 = distance, y1 = abs_residual,
+  #          x1 = distance, y0 = 0, 
+  #          lty = 3)
+}
+
+run_cv <- function(x, formula, log_response=FALSE, cbrt=FALSE, get_resid=FALSE) {
+  
+  train_control <- trainControl(method = "LOOCV", savePredictions = "final")
+  model_loocv <- train(formula,
+                       data = x, method = "lm", trControl = train_control)
+  
+  preds <- model_loocv$pred
+  preds <- preds[order(preds$rowIndex), ]$pred
+  
+  if (log_response) {
+    preds <- exp(preds)
+  }
+  
+  if (cbrt) {
+    preds <- preds**3
+  }
+  
+  predict_viz(preds, x$traffic, formula)
+  dist_residual_viz(preds, x$traffic, x$distance, formula)
+  
+  if (get_resid) {
+    return(x$traffic - preds)
+  }
+}
+```
+
+
+```{r}
+run_cv(counts, traffic ~ distance)
+```
+
+```{r}
+run_cv(counts, traffic ~ distance + high + buildings)
+```
+
+
+```{r}
+run_cv(counts, traffic ~ distance + high_anorm + buildings_anorm)
+```
+
+```{r}
+run_cv(counts, traffic ~ distance + high_lnorm + buildings_lnorm)
+```
+```{r}
+add_pred(counts, traffic ~ distance + high_lnorm + buildings_lnorm)
+```
+
+
+
+```{r}
+run_cv(counts, log(traffic) ~ distance + high_lnorm + buildings_lnorm, TRUE)
+```
+
+```{r}
+run_cv(counts, traffic ~ distance + poly(high_lnorm,2) + poly(buildings_lnorm,2))
+```
+
+```{r}
+final <- read.csv('_data/final')
+head(final)
+```
+
+```{r}
+fitf0 <- lm(traffic ~ 1, data = final)
+fitf1 <- lm(traffic ~ ., data = final)
+```
+
+```{r}
+summary(fitf1)
+```
+
+```{r}
+model_final <- step(fitf0, scope = list(lower = fitf0, upper = fitf1), 
+              direction = "both", data = final, trace = 0)
+
+summary(model_final)
+```
+
+```{r}
+run_cv(final, formula(model_final))
+```
+
+```{r}
+final_adj <- final %>% select(-c(vegetation, total, vegetation_lnorm, vegetation_anorm, total, id_x, id_y))
+```
+
+```{r}
+model_final.b <- step(fitf1, direction = "backward", data = final, trace = 0)
+summary(model_final.b)
+```
+
+```{r}
+run_cv(final, formula(model_final.b))
+```
+
+```{r}
+add_pred <- function(x, formula) {
+  train_control <- trainControl(method = "LOOCV", savePredictions = "final")
+  model_loocv <- train(formula,
+                       data = x, method = "lm", trControl = train_control)
+  
+  preds <- model_loocv$pred
+  ypred <- preds[order(preds$rowIndex), ]$pred
+  ytest <- x$traffic
+  
+  rmse0 <- sqrt(mean((ytest - ypred)^2))
+  
+  rmses <- data.frame(var = '<base>', rmse = rmse0)
+  for (i in setdiff(colnames(x), all.vars(formula))) {
+    
+    vform <- update(formula, paste(". ~ . +", i))
+    model_loocv <- train(vform,
+                         data = x, method = "lm", 
+                         trControl = train_control)
+  
+    preds <- model_loocv$pred
+    ypred <- preds[order(preds$rowIndex), ]$pred
+    rmse <- sqrt(mean((ytest - ypred)^2))
+    
+    rmses <- rbind(rmses, list(var = i, rmse = rmse))
+  }
+  
+  return(rmses %>% arrange(rmse))
+}
+```
+
+```{r}
+add_pred(final_adj, formula(model_final))
+```
+
+```{r}
+f2 <- update(formula(model_final), . ~ . + near_building_density)
+run_cv(final, f2)
+```
+
+```{r}
+add_pred(final_adj, f2)
+```
+
+```{r}
+summary(lm(f2, data = final_adj))
+```
+
+```{r}
+all.vars(f2)
+```
+
+```{r}
+summary(lm(formula(model_final), data=final))$adj.r.squared
+```
+
+
+```{r}
+f3 <- traffic ~ distance + high_lnorm + buildings_0_25 + buildings_lnorm + near_building_density
+f3r <- run_cv(final_adj, f3, get_resid=TRUE)
+```
+```{r}
+add_pred(final_adj, f3)
+```
+
+```{r}
+summary(lm(f3, data=final_adj))
+```
+
+```{r}
+f3r_df <- data.frame(id = final$id_int, residual = f3r)
+```
+
+```{r}
+write.csv(f3r_df, "_data/final_residuals", row.names=FALSE)
+```
+
+```{r}
+summary(lm(traffic ~ distance + high_lnorm, data = final))
+```
+
